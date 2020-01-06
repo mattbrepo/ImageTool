@@ -17,7 +17,7 @@ I had two folders (_old_ and _new_) containing the same set of images. I needed 
 
 ## Example
 
-Given 3 pairs in two folders:
+Given three pairs of images in two folders:
 
 ```
 +-- old
@@ -30,7 +30,7 @@ Given 3 pairs in two folders:
 |   +-- c.jpg
 ```
 
-where only _b.jpg_ is different. Calling:
+where only the two _b.jpg_ files are different. Calling:
 
 ```
 ImageTool -combdiff .\old .\new .
